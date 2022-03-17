@@ -1,0 +1,15 @@
+import math 
+
+def my_house(lenght,width):
+    length = input("What is the length of your house? 'quit: '")
+    width = input("What is the width of your house? 'quit: '")
+    area = (int(length)) * (int(width))
+    print("The area of your house is: %s" %area)
+my_house(3,5)
+
+def cir_cir(radius):
+    pi = math.pi 
+    radius = float(input("What is the radius of your house? 'quit: '"))
+    circumference = (2 * pi * int(radius))
+    print("The circumference of your house is: %s", circumference)
+cir_cir(5)
